@@ -29,3 +29,4 @@ small change
 another
 cover -test
 no
+test

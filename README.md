@@ -3,30 +3,5 @@
 ![tests metrics](https://github.com/eikonoklastess/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 # learn-cicd-starter (Notely)
 
-This repo contains the starter code for the "Notely" application for the "Learn CICD" course on [Boot.dev](https://boot.dev).
-
-## Local Development
-
-Make sure you're on Go version 1.22+.
-
-Create a `.env` file in the root of the project with the following contents:
-
-```bash
-PORT="8080"
-```
-
-Run the server:
-
-```bash
-go build -o notely && ./notely
-```
-
-*This starts the server in non-database mode.* It will serve a simple webpage at `http://localhost:8080`.
-
-You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
-small change
-
-another
-cover -test
-no
-test
+In this project I automated the testing and deployment of a premade application namde notely used for making note and storing them.
+Github actions and docker were used to automate the testing of the app and gcp and turso were used to automated the deployment and hosting of the app.
